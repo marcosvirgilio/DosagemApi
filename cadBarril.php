@@ -29,7 +29,7 @@ if (empty($deProduto) || $vlLitrosTotal <= 0) {
 
 // Preparar a query para a tabela 'barril'
 $stmt = $con->prepare("
-    INSERT INTO barril (deProduto, vlLitrosTotal, vlLitrosAtual)
+    INSERT INTO Barril (deProduto, vlLitrosTotal, vlLitrosAtual)
     VALUES (?, ?, ?)
 ");
 
