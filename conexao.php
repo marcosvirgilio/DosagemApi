@@ -1,10 +1,10 @@
 <?php
 
 //ambiente marcosvirgilio.online
-$servername = '127.0.0.1';
-$username = 'root';
-$password = 'root';
-$dbname = 'barril';
+$servername = '193.203.175.91';
+$username = 'u683605471_dosagem';
+$password = '';
+$dbname = 'u683605471_dosagem';
 
 // Create connection
 $con = new mysqli($servername, $username, $password, $dbname);
